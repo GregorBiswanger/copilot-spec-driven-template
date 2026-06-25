@@ -46,6 +46,7 @@ When I run `/spec-lifecycle` and reference one or more specs, you should:
    - Move the spec into `backlog/`, `active/`, or `done/` as appropriate.
 4. **Sync documentation**:
    - If the spec introduces or changes architecture, tests, or tooling, update the relevant Memory Bank files in `.github/memory-bank/`.
+   - **Always** update `.github/memory-bank/activeContext.md` when a spec becomes active or is completed: set `## Active Spec` to the newly active spec (or clear it if moving to `done/`), update the `Current phase` metadata, and refresh `## Next` steps. Keep the file to max 1–2 screen pages.
 
 ## Do / Don't
 

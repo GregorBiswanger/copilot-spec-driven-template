@@ -1,13 +1,30 @@
 # Active Context
 
-## Current focus
+Last updated: TBD
+Current branch: TBD
+Current phase: TBD
+
+## Now
 TBD
 
-## Status
-TBD
+## Active Spec
+- Spec: TBD
+- Current task: TBD
+- Acceptance criteria in focus: TBD
 
-## Recent changes
+## Changed Recently
 - TBD
 
-## Next steps
+## Decisions in Flight
 - TBD
+
+## Blockers / Questions
+- TBD
+
+## Next
+1. TBD
+
+## Validation
+- Done: TBD
+- Pending: TBD
+- Known issues: TBD
