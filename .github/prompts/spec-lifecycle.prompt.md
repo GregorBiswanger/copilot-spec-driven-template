@@ -30,6 +30,8 @@ Keep the spec set tidy by:
 - Each spec should declare a status near the top, for example:
   - `**Status:** Draft | In Progress | Implemented | Deprecated`
 - Only move a spec to `done/` when its acceptance criteria are satisfied and relevant tests pass.
+- **No duplicates:** A spec must exist in exactly one lifecycle folder at a time. When moving a spec, always delete the original file from the source folder after creating it in the destination folder. Never leave copies in multiple folders.
+- **Duplicate check:** Before moving a spec, scan all three folders (`backlog/`, `active/`, `done/`) for files with the same name. If a duplicate is found, delete any copies in less-advanced folders, keeping only the version in the most advanced stage (done > active > backlog), then proceed with the intended move.
 
 ## Default behavior
 
@@ -43,7 +45,7 @@ When I run `/spec-lifecycle` and reference one or more specs, you should:
    - Move completed specs into `done/` and set status to `Implemented`.
 3. **Act** on the agreed update:
    - Edit the spec file to adjust the `Status` line.
-   - Move the spec into `backlog/`, `active/`, or `done/` as appropriate.
+   - Move the spec into `backlog/`, `active/`, or `done/` as appropriate. **Always delete the original file from the source folder after writing it to the destination folder.** Never leave the same spec in two folders simultaneously.
 4. **Sync documentation**:
    - If the spec introduces or changes architecture, tests, or tooling, update the relevant Memory Bank files in `.github/memory-bank/`.
    - **Always** update `.github/memory-bank/activeContext.md` when a spec becomes active or is completed: set `## Active Spec` to the newly active spec (or clear it if moving to `done/`), update the `Current phase` metadata, and refresh `## Next` steps. Keep the file to max 1–2 screen pages.
