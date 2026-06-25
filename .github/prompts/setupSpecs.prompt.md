@@ -86,7 +86,7 @@ B) **Initialize documentation** in `DocLanguage`:
 
 - Update `.github/memory-bank/projectbrief.md` with project mission + success criteria
 - Update `.github/memory-bank/techContext.md` with stack + build/run/test
-- Create an initial `.github/memory-bank/activeContext.md` (current focus + next steps)
+- Create an initial `.github/memory-bank/activeContext.md` using this compact structure: metadata header lines `Last updated: <date>`, `Current branch: <branch>`, `Current phase: <phase>`, then sections `## Now`, `## Active Spec`, `## Changed Recently`, `## Decisions in Flight`, `## Blockers / Questions`, `## Next`, `## Validation`. Keep it to max 1–2 screen pages; do not duplicate content from other Memory Bank files.
 - Create/update `.github/memory-bank/systemPatterns.md` (initial patterns/decisions)
 
 C) **Initial architecture capture (best-effort automatic)**

@@ -79,7 +79,7 @@ The Memory Bank lives under `.github/memory-bank/` and is the project's **source
 
 - `.github/memory-bank/projectbrief.md` — mission, users, success criteria
 - `.github/memory-bank/systemPatterns.md` — architecture decisions & patterns
-- `.github/memory-bank/activeContext.md` — current focus, status, recent changes, next steps
+- `.github/memory-bank/activeContext.md` — short session-dashboard: current focus, active spec, recent changes, decisions in flight, blockers, next steps, validation state (max 1–2 screen pages)
 - `.github/memory-bank/techContext.md` — stack, constraints, build/run/test info
 
 ### Rule: Automatic architecture & memory sync (must)
@@ -101,7 +101,7 @@ Whenever you notice architecture-relevant drift (or you cause it by editing the 
 
 - Update the `architecture:` snapshot in `.github/copilot-instructions.md`.
 - Update `.github/memory-bank/systemPatterns.md` with any relevant patterns/decisions.
-- Update `.github/memory-bank/activeContext.md` with clear "Recent changes" and "Next steps" entries.
+- Update `.github/memory-bank/activeContext.md` with "Changed Recently" and "Next" entries, keeping it to max 1–2 screen pages. Do not duplicate content already in other Memory Bank files — link and summarize instead.
 
 Keep updates minimal, factual, and traceable to specific changes in the repo. For **non-trivial architectural interpretation changes** (for example, redefined boundaries or new layering schemes), first summarize what you detected and ask the user to confirm before finalizing the documentation update.
 
