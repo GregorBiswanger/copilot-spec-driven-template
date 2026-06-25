@@ -120,8 +120,9 @@ Each spec should declare its status near the top, for example:
 When a spec is implemented and its tests pass:
 
 1. Update the status in the spec to `Implemented`.
-2. Move the spec file into the `done/` folder.
-3. Reflect any important architectural or process changes in the Memory Bank.
+2. Before moving, scan all three folders for files with the same name. If duplicates are found, delete any copies in less-advanced folders (done > active > backlog) so only one copy remains.
+3. Move the spec file into the `done/` folder **and delete the original from its current folder**. A spec must exist in exactly one lifecycle folder at a time.
+4. Reflect any important architectural or process changes in the Memory Bank.
 
 ## 8) Safety / Secrets
 
