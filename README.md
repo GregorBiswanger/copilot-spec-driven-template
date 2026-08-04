@@ -1,5 +1,7 @@
 # Spec-Driven Development Template for GitHub Copilot
 
+> **Note:** A newer version of this template is available: [FeatherSpec](https://github.com/GregorBiswanger/featherspec). This template is **not deprecated**, but FeatherSpec is an improved, next-generation version. Key advantages include hybrid support for both GitHub Copilot and Claude Code, and a mature Product Owner assistant for the specification phase that is already used successfully by several Product Owner experts today. This template is also in production use in two large projects, both of which have since been migrated to FeatherSpec.
+
 This template provides a **Spec-Driven Development (SDD)** setup that lives entirely under `/.github`.
 
 ## How to start
